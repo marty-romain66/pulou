@@ -1,7 +1,7 @@
 "use client";
 import { useContext } from "react";
 import Image from "next/image";
-import Auth from "./components/auth";
+import Auth from "./components/Auth";
 import Index from "./components/Index";
 import { MyContext } from "./components/Mycontext";
 
