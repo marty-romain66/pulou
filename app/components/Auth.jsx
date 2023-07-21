@@ -9,8 +9,8 @@ export default function Auth() {
 
   return (
     <div className='mt-16 h-[100vw] w-[screen] '>
-        <input className=' m-auto text-black' type="text" onChange={(e) => setGetValue(e.target.value)} />
-        <button onClick={() => setData(getValue)}>Click</button>
+        <input className='cursor-pointer m-auto text-black' type="text" onChange={(e) => setGetValue(e.target.value)} />
+        <button className='cursor-pointer' onClick={() => setData(getValue)}>Click</button>
     </div>
  
   )
